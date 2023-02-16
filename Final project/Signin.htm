@@ -1,0 +1,148 @@
+<html>
+<head>
+    <title>
+        Signin
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="icon" href="Images/logo.png" type="image/icon type">
+</head>
+
+<body>
+
+<ul class="nav">
+
+      <li class="nav"><a href="Index.html"  class="Menu" >Go back</a></li>
+      <li class="nav"></li>
+
+
+
+</ul>
+
+
+<!--This is the image gallery to show featured images
+<div class="feature" >
+    <hr style="width:100%;">
+    <hr style="width:95%;">
+
+</div>
+
+ removed
+
+-->
+
+<!--Signin body-->
+<div class="s_body">
+<p class="S_Header">
+  <div class="anim2"></div>
+<h1 align="center">Plans</h1>
+<div class="anim2"></div>
+</p>
+<br>
+<table>
+  <!--First row-->
+
+  <tr>
+    <th> Free</th>
+    <th>Premium</th>
+  </tr>
+  <!--Second row-->
+  <tr>
+    <!-- First Column-->
+    <ul>
+      <td>
+        <li>Limited Download Speed </li>
+        <li>Four Movies per week  </li>
+        <li>Limited Library Access  </li>
+        <li>Only one user</li>
+      </td>
+    </ul>
+    <ul>
+      <td colspan="2">
+          <li>Unlimited Download speed </li>
+          <li>Unlimited Movies Per wwek</li>
+          <li> Access to Extenscive library</li>
+          <li>Multi User</li>
+      </td>
+  </tr>
+
+  <tr>
+
+      <td>advertising</td>
+
+
+      <td>No advertising </td>
+
+  </tr>
+  <tr>
+    <td>
+      <button class="ButtonB" onclick="Free()"> Choose</button>
+    </td>
+    <td>
+      <button class="ButtonB" onclick="pre()"> Choose</button>
+    </td>
+</tr>
+
+
+</table>
+<br>
+
+<p ><h2 class="price">Amount Payable</h2></p>
+<p class="price">_____________________________________</p>
+<p class="Price" id="price"><br></p>
+<p class="price">_____________________________________<br>_____________________________________</p>
+<br>
+<button class="ButtonC" onclick="msg()"> checkout </button>
+
+
+<!--
+</div>
+<div class="footer">
+  <hr width="95%">
+  <hr>
+
+
+</div>
+-->
+<!--    -----------------------------------     ------------End of Content-----------     ------------------------------------------------    -->
+
+
+
+
+  <script>
+
+
+    function Free() {
+      document.getElementById("price").innerHTML = "0$";
+    }
+
+
+    function pre(){
+       document.getElementById("price").innerHTML = "9.99$";
+    }
+    function msg(){
+      alert("Form to be updated");
+    }
+  </script>
+
+
+<!--
+    <div class="container">
+    <img src="Images/contrast.jpg" width="98%">
+    <p class="joinus">
+
+        Library of TV shows , Movies , Dramas in one place
+        <li><a href="#subscription" class="button">Join For Free</a></li>
+
+     </p>
+
+     <script>
+     function myFunction() {
+       document.getElementById("demo").innerHTML = "Hello World";
+     }
+     </script>
+
+</div>
+-->
+</body>
+</html>
